@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.90;
+float alpha = 0.80;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -109,7 +109,7 @@ static const char *colorname[] = {
 	//"gray90",
 								  
 	// Nord Theme - 8 normal cols
-	"#3b4252", /* black   */
+	"black" /*"#3b4252"*/, /* black   */
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
@@ -129,7 +129,7 @@ static const char *colorname[] = {
 	//"white",
 
 	// Nord theme - 8 bright cols
-	"#4c566a", /* black   */
+	"black" /*"#4c566a"*/, /* black   */
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
@@ -144,7 +144,7 @@ static const char *colorname[] = {
 	//"#cccccc",
 	//"#555555",
 	// Nord theme - background
-	"#2e3440", /* background */
+	"black"/*"#2e3440"*/, /* background */
 	"#d8dee9", /* foreground */
 
 	"gray90", /* default foreground colour */
