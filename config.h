@@ -111,7 +111,7 @@ static const char *colorname[] = {
 	//"gray90",
 								  
 	// Nord Theme - 8 normal cols
-	"black" /*"#3b4252"*/, /* black   */
+    "#3b4252", /* black   */
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
@@ -131,7 +131,7 @@ static const char *colorname[] = {
 	//"white",
 
 	// Nord theme - 8 bright cols
-	"black" /*"#4c566a"*/, /* black   */
+    "#4c566a", /* black   */
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
@@ -146,11 +146,11 @@ static const char *colorname[] = {
 	//"#cccccc",
 	//"#555555",
 	// Nord theme - background
-	"black"/*"#2e3440"*/, /* background */
+	"black", //"#2e3440", /* background */
 	"#d8dee9", /* foreground */
 
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	//	"gray90", /* default foreground colour */
+	//	"black", /* default background colour */
 };
 
 
